@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pro_Name :"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/editNFCname"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:hint="Input name" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class Name:"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/editNFCclassName"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:hint="Input class" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time Info"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Day of week:"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/editNFCday"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:hint="Input day" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="start time:"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/editNFCstartTIme"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:hint="Input time" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="end time  :"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/editNFCendTime"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:hint="Input time" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonNFCOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp"
+        android:text="OK" />
+
+    <Button
+        android:id="@+id/buttonNFCCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/buttonNFCOK"
+        android:layout_marginEnd="26dp"
+        android:text="Cancel" />
+
+
+
+</RelativeLayout>
